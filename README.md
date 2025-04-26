@@ -11,9 +11,18 @@ this is a simplest nix package manager config.
   - again, waiting is happiness :))
 
 ## how to use my config
-1. First, make sure you have **git** installed:
+1. First, make sure you have **git and curl** installed:
+  - method 1:
    ```bash
    nix profile install nixpkgs#git nixpkgs#curl
+   ```
+  - method 2:
+    + type `vim .config/nix-on-droid/nix-on-droid.nix`
+    + find `environment.packages`
+    + type "i" for insert mode
+    + add "git" and "curl", enter before typing
+
+(oh, according to my test, method 1 take very very long time! using method 2 maybe faster)
   
 2. use this script
   ```bash
