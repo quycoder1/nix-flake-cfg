@@ -7,7 +7,8 @@
 		openssh
 		btop
 		bat
-		git 
+		git
+    gh
 	];
 
 	environment.etcBackupExtension = ".bak";
